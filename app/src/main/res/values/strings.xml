@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Movies</string>
+    <string name="title_placeholder">Title</string>
+    <string name="movies_image">Movies Image</string>
+    <string name="news_label">IMDB</string>
+    <string name="movies_info_placeholder">Here is some news</string>
+    <string-array name="filler_text">
+        <item>"Seasoned musician Jackson Maine (Bradley Cooper) discovers-and falls in love with-struggling artist Ally (Gaga). She has just about given up on her dream to make it big as a singer - until Jack coaxes her into the spotlight. But even as Allys career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons."</item>
+        <item>"American tourist Jesse and French student Celine meet by chance on the train from Budapest to Vienna. Sensing that they are developing a connection, Jesse asks Celine to spend the day with him in Vienna, and she agrees. So they pass the time before his scheduled flight the next morning together. How do two perfect strangers connect so intimately over the course of a single day? What is that special thing that bonds two people so strongly? As their bond turns to love, what will happen to them the next morning when Jesse flies away?"</item>
+        <item>"After pursuing Kevin Wendell Crumb and the multiple identities that reside within. David Dunn finds himself locked in a mental hospital alongside his archenemy, Elijah Price. He must now contend with a psychiatrist who is out to prove the trio do not actually possess superhuman abilities"</item>
+        <item>"Dom Cobb is a skilled thief, the absolute best in the dangerous art of extraction, stealing valuable secrets from deep within the subconscious during the dream state, when the mind is at its most vulnerable. Cobb's rare ability has made him a coveted player in this treacherous new world of corporate espionage, but it has also made him an international fugitive and cost him everything he has ever loved. Now Cobb is being offered a chance at redemption. One last job could give him his life back but only if he can accomplish the impossible, inception. Instead of the perfect heist, Cobb and his team of specialists have to pull off the reverse: their task is not to steal an idea, but to plant one. If they succeed, it could be the perfect crime. But no amount of careful planning or expertise can prepare the team for the dangerous enemy that seems to predict their every move. An enemy that only Cobb could have seen coming."</item>
+        <item>"In a brand-new Jumanji adventure, four high-school kids discover an old video-game console and are drawn into the game's jungle setting, literally becoming the adult avatars they chose. What they discover is that you don't just play Jumanji you must survive it. To beat the game and return to the real world, they must go on the most dangerous adventure of their lives, discover what Alan Parrish left 20 years ago, and change the way they think about themselves or they'll be stuck in the game forever, to be played by others without break."</item>
+        <item>"Aspiring actress serves lattes to movie stars in between auditions and jazz musician Sebastian scrapes by playing cocktail-party gigs in dingy bars. But as success mounts, they are faced with decisions that fray the fragile fabric of their love affair, and the dreams they worked so hard to maintain in each other threaten to rip them apart."</item>
+        <item>"Quentin Tarantino's Once Upon a Time in Hollywood visits 1969 Los Angeles, where everything is changing, as TV star Rick Dalton (Leonardo DiCaprio) and his longtime stunt double Cliff Booth (Brad Pitt) make their way around an industry they hardly recognize anymore. The ninth film from the writer-director features a large ensemble cast and multiple storylines in a tribute to the final moments of Hollywood's golden age."</item>
+        <item>"Chronicles the experiences of a formerly successful banker as a prisoner in the gloomy jailhouse of Shawshank after being found guilty of a crime he did not commit. The film portrays the man's unique way of dealing with his new, torturous life; along the way he befriends a number of fellow prisoners, most notably a wise long-term inmate named Red."</item>
+        <item>"Though Kevin (James McAvoy) has evidenced 23 personalities to his trusted psychiatrist, Dr. Fletcher (Betty Buckley), there remains one still submerged who is set to materialize and dominate all of the others. Compelled to abduct three teenage girls led by the willful, observant Casey, Kevin reaches a war for survival among all of those contained within him  as well as everyone around him  as the walls between his compartments shatter."</item>
+        <item>"1913, Budapest, in the heart of Europe. The young Irisz Leiter arrives in the Hungarian capital with high hopes to work as a milliner at the legendary hat store that belonged to her late parents. She is nonetheless sent away by the new owner, Oszkár Brill. While preparations are under way at the Leiter hat store, to host guests of uttermost importance, a man abruptly comes to Irisz, looking for a certain Kálmán Leiter. Refusing to leave the city, the young woman follows Kálmán's tracks, her only link to a lost past. Her quest brings her through the dark streets of Budapest, where only the Leiter hat store shines, into the turmoil of a civilization on the eve of its downfall."</item>
+        <item>"David Dunn (Willis) is taking a train from New York City back home to Philadelphia after a job interview that didn't go well when his car jumps the tracks and collides with an oncoming engine, with David the only survivor among the 131 passengers on board. Astoundingly, David is not only alive, he hardly seems to have been touched. As David wonders what has happened to him and why he was able to walk away, he encounters a mysterious stranger, Elijah Prince (Samuel L. Jackson), who explains to David that there are a certain number of people who are "unbreakable"  they have remarkable endurance and courage, a predisposition toward dangerous behavior, and feel invincible but also have strange premonitions of terrible events. Is David "unbreakable"? And if he is, what are the physical and psychological ramifications of this knowledge?"</item>
+    </string-array>
+<string-array name="news_label">
+    <item>2018</item>
+    <item>1995</item>
+    <item>2019</item>
+    <item>2010</item>
+    <item>2017</item>
+    <item>2016</item>
+    <item>2019</item>
+    <item>1994</item>
+    <item>2016</item>
+    <item>2018</item>
+    <item>2000</item>
+</string-array>
+    <string-array name="movies_titles">
+        <item>A Star is Born</item>
+        <item>Before Sunrise</item>
+        <item>Glass</item>
+        <item>Inception</item>
+        <item>Jumanji</item>
+        <item>La La Land</item>
+        <item>Once Upon a Time in Hollywood</item>
+        <item>The Shawshank Redemption</item>
+        <item>Split</item>
+        <item>Sunset</item>
+        <item>Unbreakable</item>
+    </string-array>
+
+    <string-array name="movies_info">
+        <item>Click to see more info about A Star is Born!</item>
+        <item>Click to see more info about Before Sunrise!</item>
+        <item>Click to see more info about Glass!</item>
+        <item>Click to see more info about Inception!</item>
+        <item>Click to see more info about Jumanji!</item>
+        <item>Click to see more info about La La Land!</item>
+        <item>Click to see more info about Once Upon a Time in Hollywood!</item>
+        <item>Click to see more info about The Shawshank Redemtion!</item>
+        <item>Click to see more info about Split!</item>
+        <item>Click to see more info about Sunset!</item>
+        <item>Click to see more info about Unbreakable!</item>
+    </string-array>
+
+    <array name="movies_images">
+        <item>@drawable/a_star_is_born</item>
+        <item>@drawable/before_sunrise</item>
+        <item>@drawable/glass</item>
+        <item>@drawable/inception</item>
+        <item>@drawable/jumanji</item>
+        <item>@drawable/la_la_land</item>
+        <item>@drawable/once_upon_a_time_in_hollywood</item>
+        <item>@drawable/shawshank_redemption</item>
+        <item>@drawable/split</item>
+        <item>@drawable/sunset</item>
+        <item>@drawable/unbreakable</item>
+    </array>
+
+</resources>
+
+
