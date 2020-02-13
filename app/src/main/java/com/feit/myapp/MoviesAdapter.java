@@ -47,7 +47,7 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.MoviesView
      * @param parent The ViewGroup into which the new View is added after it is
      *               bound to an adapter position.
      * @param viewType The view type of the new View.
-     * @return The newly create SportsViewHolder.
+     * @return The newly create MoviesViewHolder.
      */
     @Override
     public MoviesViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
@@ -63,7 +63,7 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.MoviesView
     @Override
     public void onBindViewHolder(MoviesViewHolder holder, int position) {
 
-        //Get the current sport
+        //Get the current movie
         Movies currentMovies = mMoviesData.get(position);
 
         //Bind the data to the views
@@ -83,7 +83,7 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.MoviesView
 
 
     /**
-     * SportsViewHolder class that represents each row of data in the RecyclerView
+     * MoviesViewHolder class that represents each row of data in the RecyclerView
      */
     static class MoviesViewHolder extends RecyclerView.ViewHolder
             implements View.OnClickListener {
@@ -98,7 +98,7 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.MoviesView
         private GradientDrawable mGradientDrawable;
 
         /**
-         * Constructor for the SportsViewHolder, used in onCreateViewHolder().
+         * Constructor for the MoviesViewHolder, used in onCreateViewHolder().
          * @param itemView The rootview of the list_item.xml layout file
          */
         MoviesViewHolder(Context context, View itemView, GradientDrawable gradientDrawable) {
@@ -123,7 +123,7 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.MoviesView
             mInfoText.setText(currentMovies.getInfo());
             mText.setText(currentMovies.getText());
 
-            //Get the current sport
+            //Get the current movie
             mCurrentMovies = currentMovies;
 
 
@@ -139,7 +139,6 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.MoviesView
             //Set up the detail intent
             Intent detailIntent = Movies.starter(mContext, mCurrentMovies.getTitle(),
                     mCurrentMovies.getImageResource(),(String) mText.getText());
-
 
             //Start the detail activity
             mContext.startActivity(detailIntent);

@@ -57,8 +57,8 @@ public class MainActivity extends AppCompatActivity {
             /**
              * Method that defines the drag and drop functionality
              * @param recyclerView The RecyclerView that contains the list items
-             * @param viewHolder The SportsViewHolder that is being moved
-             * @param target The SportsViewHolder that you are switching the original one with.
+             * @param viewHolder The MoviesViewHolder that is being moved
+             * @param target The MoviesViewHolder that you are switching the original one with.
              * @return returns true if the item was moved, false otherwise
              */
             @Override
@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     /**
-     * Method for initializing the sports data from resources.
+     * Method for initializing the movies data from resources.
      */
     private void initializeData() {
         //Get the resources from the XML file
@@ -109,8 +109,8 @@ public class MainActivity extends AppCompatActivity {
         mMoviesData.clear();
 
 
-        //Create the ArrayList of Sports objects containing the titles,
-        // images and information about each sport
+        //Create the ArrayList of Movies objects containing the titles,
+        // images and information about each movie
         for(int i=0; i<moviesList.length; i++){
             mMoviesData.add(new Movies(moviesList[i], moviesInfo[i],
                     moviesImageResources.getResourceId(i,0),moviesListInfo[i]));

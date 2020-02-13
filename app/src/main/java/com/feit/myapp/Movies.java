@@ -6,20 +6,20 @@ import android.content.Intent;
 import androidx.annotation.DrawableRes;
 
 public class Movies {
-    //Member variables representing the title, image and information about the sport
+    //Member variables representing the title, image and information about the movie
     private final String title;
     private final String info;
     private final int imageResource;
-    public final String text;
+    private final String text;
     static final String TITLE_KEY = "Title";
     static final String IMAGE_KEY = "Image Resource";
-    public static String TEXT_KEY= "Text";
+    static final String TEXT_KEY= "Text";
 
     /**
-     * Constructor for the Sport class data model
-     * @param title The name if the sport.
-     * @param info Information about the sport.
-     * @param imageResource The resource for the sport image
+     * Constructor for the Mvoies class data model
+     * @param title The name if the movie.
+     * @param info Information about the movie.
+     * @param imageResource The resource for the movie image
      */
     Movies(String title, String info, int imageResource,String text) {
         this.title = title;
@@ -29,15 +29,15 @@ public class Movies {
     }
 
     /**
-     * Gets the title of the sport
-     * @return The title of the sport.
+     * Gets the title of the movie
+     * @return The title of the movie.
      */
     String getTitle() {
         return title;
     }
     /**
-     * Gets the info about the sport
-     * @return The info about the sport.
+     * Gets the info about the movie
+     * @return The info about the movie.
      */
     String getInfo() {
         return info;
@@ -56,9 +56,9 @@ public class Movies {
     /**
      * Method for creating  the Detail Intent
      * @param context Application context, used for launching the Intent
-     * @param title The title of the current Sport
-     * @param imageResId The image resource associated with the current sport
-     * @return The Intent containing the extras about the sport, launches Detail activity
+     * @param title The title of the current Movies
+     * @param imageResId The image resource associated with the current movies
+     * @return The Intent containing the extras about the movie, launches Detail activity
      */
     static Intent starter(Context context, String title, @DrawableRes int imageResId, String text) {
         Intent detailIntent = new Intent(context, DetailActivity.class);

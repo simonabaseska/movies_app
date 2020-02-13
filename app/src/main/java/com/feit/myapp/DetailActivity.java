@@ -10,6 +10,8 @@ import com.bumptech.glide.Glide;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 
+
+
 public class DetailActivity extends AppCompatActivity {
     /**
      * Initializes the activity, filling in the data from the Intent.
@@ -23,6 +25,7 @@ public class DetailActivity extends AppCompatActivity {
         //Initialize the views
         TextView moviesTitle = (TextView)findViewById(R.id.titleDetail);
         ImageView moviesImage = (ImageView)findViewById(R.id.moviesImageDetail);
+        TextView  moviesText=(TextView) findViewById(R.id.subTitleDetail);
 
         //Get the drawable
         Drawable drawable = ContextCompat.getDrawable
@@ -39,6 +42,8 @@ public class DetailActivity extends AppCompatActivity {
 
         //Set the text from the Intent extra
         moviesTitle.setText(getIntent().getStringExtra(Movies.TITLE_KEY));
+        moviesText.setText(getIntent().getStringExtra((Movies.TEXT_KEY)));
+
 
         //Load the image using the glide library and the Intent extra
         Glide.with(this).load(getIntent().getIntExtra(Movies.IMAGE_KEY,0))
